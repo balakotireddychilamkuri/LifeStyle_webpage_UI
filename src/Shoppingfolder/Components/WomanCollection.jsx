@@ -5,7 +5,7 @@ const WomanCollection = (props) => {
     const {title, image1, image2, image3, image4, image5, image6, price1, price2, price3, price4, price5, price6}=props.ladiesFashion
   return (
 
-    <div>
+    <div className='px-16'>
 
      <h1>{title}</h1>
         <div className='bannerbox ' >

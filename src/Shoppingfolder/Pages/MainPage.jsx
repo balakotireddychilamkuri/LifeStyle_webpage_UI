@@ -5,6 +5,7 @@ import Footer from '../Components/Footer'
 import Banner from '../Components/Banner'
 import { Gents,Ladies } from '../data'
 import WomanCollection from '../Components/WomanCollection'
+import MailNavbar from '../Components/MailNavbar'
 
 const MainPage = () => {
     const [gentsFashion,setgentsFashion]=useState(Gents)
@@ -12,6 +13,7 @@ const MainPage = () => {
     console.log(Gents)
   return (
     <div>
+      <MailNavbar/>
      <Header/>
      <Banner/>
      <Collections gentsFashion={gentsFashion} />
